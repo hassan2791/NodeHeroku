@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
   res.send(`
     <html>
       <head>
-        <title>My Node App</title>
+        <title>Cloude App</title>
       </head>
       <body>
         <h1>Hello, welcome to my Node.js app!</h1>
