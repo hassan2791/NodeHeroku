@@ -27,6 +27,6 @@ jobs:
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
         run: |
-          git remote add heroku https://heroku:$HEROKU_API_KEY@git.heroku.com/nodeheroku.git
+          git remote add heroku https://heroku:$HEROKU_API_KEY@git.heroku.com/node2herkou.git
           git push heroku main
          
